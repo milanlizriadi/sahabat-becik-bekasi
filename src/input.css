@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.my-border-radius {
+  @apply rounded-md;
+}
+
+.button {
+  @apply my-border-radius bg-primary py-5 px-10 text-base font-semibold text-white transition duration-500 ease-in-out  border-2 border-white hover:bg-white hover:text-primary hover:border-primary;
+}
+
+.icon-button {
+  @apply my-border-radius bg-primary py-5 px-5 text-base font-semibold text-white transition duration-500 ease-in-out  border-2 border-white hover:bg-white hover:text-primary hover:border-primary;
+}
+
+.anggota-card {
+  @apply hover:scale-105 transition duration-150 ease-in-out mb-12 p-3 md:w-1/4 bg-white active:scale-95;
+}
+
+.about-social-icon {
+  @apply mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white hover:scale-105;
+}
