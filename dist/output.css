@@ -693,6 +693,14 @@ video {
   height: 1.5rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -818,16 +826,12 @@ video {
   padding-bottom: 1rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .pt-36 {
   padding-top: 9rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-center {
